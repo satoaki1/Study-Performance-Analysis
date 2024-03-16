@@ -26,7 +26,7 @@ library(e1071)
 # | Data Collection                                                            |
 # |============================================================================|
 
-dataset <- read.csv("file:///Users/ihsa332019/Desktop/Taylor_s Lesson Materials/Data Mining/Mid-Term/study_performance (1).csv")
+dataset <- read.csv("absolute-path-to-the-directory/ITS61504_MidTerm.csv")
 
 print(head(dataset))
 print(dim(dataset))
